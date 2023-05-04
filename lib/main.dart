@@ -35,7 +35,7 @@ class _MagicBallState extends State<MagicBall> {
             onPressed: () {
               setState(() {
                 ram();
-                print(ballface);
+                print('I got clicked');
               },
               );
             },
